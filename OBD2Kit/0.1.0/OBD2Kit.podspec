@@ -7,6 +7,6 @@ s.license = 'Apache 2.0'
 s.author = { "FuzzyLuke" => "FuzzyLuke" }
 s.source = { :git => "https://github.com/mcuapps/OBD2Kit.git", :tag => "v0.1.0" }
 s.platform = :ios
-s.source_files = '*'
+s.source_files = 'Classes/*.{h,m}'
 s.documentation = {}
 end
